@@ -40,15 +40,39 @@ box-sizing: border-box;
 
 ![image](螢幕擷取畫面%202023-12-11%20164415.png)
 
-c.  將右半部的div拷貝出來，並於拷貝CSS檔中的.contentContainer類別
-後，將拷貝出來的類別重新命名成.functionContainer後，形成三欄式畫面。
-其由左至右套用div的CSS類別分別. menu ,  .contentContainer , 
-與.functionContainer 且各自的min-width為30%, 50%與20%。請根據上小題的
+c.  由左至右套用div的CSS類別分別. menu ,  .contentContainer , 與.functionContainer 且各自的min-width為30%, 50%與20%。請根據上小題的
 b的結果繼續實作成三欄式畫面。
 ```html
-
+<div class="functionContainer">
+        內容區塊
+    </div>
 ```
-![image](picture or gif url)
+```html
+<style>
+        .menu{
+            float: left;
+            background-color: #FF0000;
+            min-width: 30%;
+            border: 1px solid blue;
+            box-sizing: border-box;
+        }
+        .contentContainer{
+            float: right;
+            background-color: #00FFFF;
+            min-width: 50%;
+            border: 1px solid blue;
+            box-sizing: border-box;
+        }
+        .functionContainer{
+            float: right;
+            background-color: #00FFFF;
+            min-width: 20%;
+            border: 1px solid blue;
+            box-sizing: border-box;
+        }
+    </style>
+```
+![image](螢幕擷取畫面%202023-12-17%20201431.png)
 
 
 ## 個人認為完成作業須具備觀念
